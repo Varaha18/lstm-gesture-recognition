@@ -88,4 +88,4 @@ recognizer.run_realtime(robot_controller=robot)
 
 ## Author
 Varaha Venkat Karri  
-varaha.karri@example.com | Berlin, Germany
+varaha.venkat@icloud.com | Berlin, Germany
