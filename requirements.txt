@@ -1,8 +1,10 @@
-tensorflow==2.12.0
-keras==2.12.0
-opencv-python==4.8.0
-mediapipe==0.10.0
-numpy==1.24.0
-scikit-learn==1.3.0
-matplotlib==3.7.0
-jupyter==1.0.0
+tensorflow>=2.12
+# uses the mp.solutions.hands API; if a newer mediapipe release has removed it, install an older 0.10.x
+mediapipe>=0.10
+opencv-python>=4.8
+numpy
+scikit-learn
+matplotlib
+tqdm
+# optional, only for the model diagram
+pydot
